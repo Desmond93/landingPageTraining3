@@ -1,0 +1,684 @@
+body {
+	background-color: #eff0f2;
+}
+
+.navbar { /*отступы навигационного меню*/
+	padding: 60px 0;
+}
+
+/*параметры первой секции*/
+
+.first { 
+	text-align: center;
+	height: auto;
+	padding-bottom: 200px;
+}
+
+h1 { /*параметры заголовка*/
+	text-transform: uppercase;	
+	font-size: 45px;
+	font-family: "Montserrat";
+	font-weight: bold;
+	line-height: 1.5;
+	text-shadow: 0px 9px 10px rgba(0, 0, 0, 0.24);
+	color: rgb(80, 80, 80);
+	margin: 130px 0;
+}
+
+.fontext { /*класс, задающий фон словам*/
+	background-color: #afeeea;
+}
+
+.first_button_outs {
+	width: 100%;
+}
+
+.first_button {	/*параметры кнопки "contact us"*/
+	color: #777879;	        
+    font-size: 18px;   
+    text-transform: uppercase;
+    border: 3px solid #777879;
+    text-decoration: none;
+    font-family: "Montserrat";
+    padding: 10px 40px;    
+}
+
+.first_button:hover {
+	border: 3px solid #afeeea;
+	background-color: #afeeea;	
+}
+
+.first a {
+	text-decoration: none;
+}
+
+.first a:hover {
+	color: #777879;
+}
+
+.first img { /*позиционированние стакана*/
+	position: absolute;
+	left: 75%;	
+}
+
+/*параметры второй секции*/
+
+.second {
+	background-color: #f8fafa;
+	height: auto;
+	padding: 120px 0;
+}
+
+.hat { /*параметры контейнера с заголовком*/
+	text-align: center;
+	margin-bottom: 120px;
+}
+
+.hat h2 { /*Параметры заголовка*/
+	font-size: 38px;
+	font-family: "Montserrat";
+	color: rgba(0, 0, 0, 0.902);
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.hat p { /*параметры описания*/
+	font-size: 18px;
+	font-family: "Merriweather";
+	color: rgba(0, 0, 0, 0.62);
+	text-transform: uppercase;
+}
+
+.second .shad {
+	background-color: #eeeff1;
+	height: 80%;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.second .carousel {
+	width: 80%;
+	margin-left: 10%;
+	position: relative;
+	bottom: 10%;
+}
+
+.second_text { /*парметры контейнера с текстом справа от слайдера*/
+	padding-left: 100px;
+}
+
+.second_text h3 { /*Параметры большого заголовка*/
+	font-size: 20px;
+	font-family: "Merriweather";
+	color: rgba(0, 0, 0, 0.749);
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+
+.second_text p { /*параметры текста*/
+	font-size: 16px;
+	font-family: "Raleway";
+	color: rgba(0, 0, 0, 0.741);
+	line-height: 1.75;
+}
+
+.second_text h4 { /*параметры маленького заголовка*/
+	font-size: 17px;
+	font-family: "Merriweather";
+	color: rgba(0, 0, 0, 0.749);
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+
+/*параметры третьей секции*/
+
+.third {
+	background-color: #ffffff;
+	padding: 120px 0;
+}
+
+.third .cont_img { /*контейнер с картинкой*/
+	padding: 10px;
+}
+
+.third img { /*параметры картинки*/
+	width: 100%;
+}
+
+.main_img { /*размер картинки при клике*/
+	width: 200%;
+	height: 200%;
+}
+
+/*параметры четвёртой секции*/
+
+.fourth {
+	padding: 120px 0;
+	background-color: #f9fbfb;
+}
+
+.fourth .cont { /*отступы между контейнерами*/
+	padding: 10px;
+}
+
+.fourth_block_1 { /*параметры первого внешнего блока*/
+	background: url(../img/4.2.png) no-repeat center;
+	background-size: 80%;
+	height: 420px;
+}
+
+.fourth_block_2 { /*параметры второго внешнего блока*/
+	background: url(../img/4.1.png) no-repeat center;
+	background-size: 100%;
+	height: 420px; 
+}
+
+.fourth_block_3 { /*параметры третьего внешнего блока*/
+	background: url(../img/4.2.png) no-repeat center;
+	background-size: 80%;
+	height: 370px;
+}
+
+.fourth_block_4 { /*параметры четвёртого внешнего блока*/
+	background: url(../img/4.3.png) no-repeat center;
+	background-size: 100%;
+	height: 370px;
+}
+
+.fourth_block_5 { /*параметры пятого внешнего блока*/
+	background: url(../img/4.4.png) no-repeat center;
+	background-size: 100%;
+	height: 370px;
+}
+
+.fourth_block_6 { /*параметры шестого внешнего блока*/
+	background: url(../img/4.5.png) no-repeat center;
+	background-size: 100%;
+	height: 370px;
+}
+
+
+.fourth_block_1_1, .fourth_block_2_1, 
+.fourth_block_3_1, .fourth_block_4_1, 
+.fourth_block_5_1, .fourth_block_6_1 { /*параметры внутренних блоков*/
+	height: 100%;
+	background-color: rgb(0, 0, 0, 0.7);	
+}
+
+.fourth_block_1_1:hover, .fourth_block_2_1:hover,
+.fourth_block_3_1:hover, .fourth_block_4_1:hover,
+.fourth_block_5_1:hover, .fourth_block_6_1:hover {
+	background-color: rgb(0, 0, 0, 0.5);
+}
+
+.fourth_block_1_1 {
+	padding: 150px 150px 50px 60px;
+}
+
+.fourth_block_2_1 {
+	padding: 150px 90px 50px 60px;
+}
+
+.fourth_block_3_1 {
+	padding: 150px 180px 50px 60px;
+}
+
+.fourth_block_4_1 {
+	padding: 150px 90px 50px 60px;
+}
+
+.fourth_block_5_1 {
+	padding: 120px 120px 50px 60px;
+}
+
+.fourth_block_6_1 {
+	padding: 120px 180px 50px 60px;
+}
+
+.cont h3 { /*параметры заголовков*/
+	font-size: 20px;
+	font-family: "Merriweather";
+	color: rgba(255, 255, 255, 0.9);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 2;
+	letter-spacing: 1.5px;
+}
+
+.cont p { /*параметры текста*/
+	font-size: 16px;
+	font-family: "Raleway";
+	color: rgba(255, 255, 255, 0.9);
+	line-height: 1.563;
+}
+
+.cont .arrow_cross { /*know more и стрелочка*/
+	font-size: 18px;
+	font-family: "Raleway";
+	color: rgba(249, 251, 251, 0.9);
+	text-transform: uppercase;
+}
+
+/*параметры пятой секции*/
+
+.fifth {
+	padding: 120px 0;
+	background-color: #ffffff;
+}
+
+.fifth .cont { /*внешние контейнеры*/
+	padding: 5px;	
+}
+
+.fifth .main_img { /*размер картинок*/
+	width: 100%;
+	height: 100%;	
+}
+
+.fifth .message { /*параметры всплывающего сообщения*/
+	width: 90%;
+	margin: 0 5%;
+	position: absolute;
+	top: 150px;
+	z-index: -1;
+}
+
+.triangle {	/*треугольник на верхней границе сообщения*/
+	width: 5%;
+	height: 100;
+    border: 10px solid transparent;
+    border-bottom: 20px solid #70f6eb;;
+	
+}
+
+.rectangle { /*прямоугольное тело сообщения*/
+	background-color: #70f6eb;
+	padding: 30px 50px 40px 30px;	
+}
+
+.fifth .message h5 { /*заголовок сообщения*/
+	font-size: 20px;
+	font-family: "Merriweather";
+	color: rgba(39, 39, 39, 0.949);
+	font-weight: bold;
+	line-height: 2;
+}
+
+.fifth .message p { /*текст сообщения*/
+	font-size: 16px;
+	font-family: "Raleway";
+	color: rgba(0, 0, 0, 0.8);
+	line-height: 1.5;
+}
+
+.contantcs { /*ссылки на соц. сети*/
+	padding-left: 10px;
+}
+
+.cont:hover .message { /*появление сообщения при наведении на картинку*/
+	z-index: 1;
+}
+
+/*параметры шестой секции*/
+
+.sixth {
+	padding: 120px 0;
+	background-color: #f9fbfb;
+}
+
+.sixth .shade {
+	background-color: #ebecee;
+	height: 85%;
+	width: 110%;
+	margin-top: 20px;
+}
+
+.sixth .shade img {
+	width: 90%;
+	height: 115%;
+	margin-left: 5%;
+	position: relative;
+	bottom: 10%;	
+}
+
+.sixth .carousel-control-prev { /*изменение размеров и положения управляющих конопок*/
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	position: relative;
+	top: 20px;
+	left: 88%;
+	width: 50px;
+	height: 50px;
+}
+
+.sixth .carousel-control-next {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	position: relative;
+	top: -30px;
+	left: 95%;
+	width: 50px;
+	height: 50px;	
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	background-image: none;
+}
+
+.sixth .carousel-control-prev:hover,
+.sixth .carousel-control-next:hover { /*изменеие цвета управляющих кнопок при наведении*/
+	background-color: #71f6eb;
+	color: #71f6eb;
+}
+
+.slick-prev:after { /*содержимое управляющих кнопок*/
+	content: ">";
+	font-weight: bold;
+	color: black;
+	font-size: 30px;
+	padding-right: 12px;
+}
+
+.slick-next:before {
+	content: "<";
+	font-weight: bold;
+	color: black;
+	font-size: 30px;
+	padding-left: 15px;
+}
+
+.sixth .cont { /*контейнер справа*/
+	background-color: #eaebed;
+	border-radius: 2px;
+	padding: 100px 80px 60px 80px;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 50px;
+	
+}
+
+.sixth .cont h4 { /*заголовок контейнера*/
+	font-size: 20px;
+	font-family: "Merriweather";
+	color: rgba(0, 0, 0, 0.949);
+	font-weight: bold;
+	line-height: 1.4;
+}
+
+.sixth .cont p { /*текст контейнера*/
+	font-size: 16px;
+	font-family: "Raleway";
+	color: rgba(0, 0, 0, 0.702);
+	line-height: 1.688;
+}
+
+/*параметры седьмой секции*/
+
+.seventh {
+	padding: 100px 0;
+	background-color: #ffffff;
+}
+
+.seventh img {
+	width: 100%;
+} 
+
+/*параметры восьмой секции*/
+
+.eight {
+	padding: 120px 0;	
+	background: url(../img/7fon.png) no-repeat center top/cover;
+}
+
+.eight .left { /*параметры левого блока*/
+	background-color: rgb(2, 22, 35, 0.7);
+	padding: 40px 30px 35px 30px;
+	height: 500px;	
+}
+
+::-webkit-input-placeholder {
+	color: #a6aeb3;
+}
+
+.eight .field, textarea { /*параметры полей формы*/
+	width: 100%;
+	background-color: rgb(2, 22, 35, 0);
+	border: none;
+	border-bottom: 2px solid #a6aeb3;
+	padding-top: 20px;
+	font-size: 15px;
+	font-family: "Raleway";
+	color: rgba(255, 255, 255, 0.6);
+ 	line-height: 3.4;
+}
+
+.eight .button { /*параметры кнопки*/
+	background-color: rgba(0, 0, 0, 0);
+	border: 3px solid #6eeee4;
+	width: 45%;	
+	height: 50px;
+	margin-top: 30px;
+	font-size: 18px;
+	font-family: "Montserrat";
+	color: #6eeee4;
+	text-transform: uppercase;
+}
+
+.eight .button:hover {
+	background-color: #6eeee4;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.eight .right { /*параметры правого блока*/
+	height: 500px;
+	background-color: rgb(2, 22, 35, 0.7);
+	padding: 25px 20px 15px 20px;
+}
+
+.eight .right p { /*параметры текста*/
+	font-size: 15px;
+	font-family: "Raleway";
+	color: #a6aeb3;
+	line-height: 1.6;
+}
+
+iframe { /*размер карты*/
+	width: 100%;
+	height: 220px;
+}
+
+/*параметры девятой секции*/
+
+.ninth {
+	padding: 90px 0;
+	background-color: #262b2e;
+	text-align: center;
+}
+
+.ninth h3 {
+	font-size: 16px;
+	font-family: "Raleway";
+	color: rgba(255, 255, 255, 0.8);
+	line-height: 1.5;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.cont_out {
+	padding: 0;
+}
+
+.cont_out a {
+	text-decoration: none;
+}
+
+.fa {
+  padding: 10px 0;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background: #424648;
+  color: white;
+  width: 80%;
+}
+
+.fa:hover {
+  color: black;
+  background-color: #6eeee4;
+}
+
+.ninth p {
+	font-size: 16px;
+	font-family: "Raleway";
+	color: rgba(255, 255, 255, 0.4);
+	line-height: 1.5;
+	margin-top: 30px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+.second .shad {	
+	height: 80%;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.second .carousel {
+	width: 90%;
+	margin-left: 5%;	
+	bottom: 5%;
+}
+
+.rectangle { 	
+	padding: 5px 10px 5px 10px;	
+}
+
+.sixth .carousel-control-prev {
+	left: 86%;
+}
+
+.sixth .carousel-control-next {
+	left: 94%;
+}
+
+.sixth .cont { 	
+	padding: 55px 20px 45px 20px;
+}
+
+@media screen and (max-width: 992px) {
+
+.second .carousel {
+	width: 80%;
+	margin-left: 10%;	
+	bottom: 10%;
+}
+
+.second_text {
+	margin-top: 50px;
+}
+
+.fifth .message {
+	top: 550px;
+}
+
+.rectangle { 	
+	padding: 30px 50px 40px 30px;	
+}
+
+.sixth .shade img {
+	width: 80%;
+	margin-left: 5.5%;
+}
+
+.sixth .carousel-control-prev {
+	left: 82%;
+}
+
+.sixth .carousel-control-next {
+	left: 92%;
+}
+
+.sixth .cont {
+	margin-left: 0;
+}	
+
+}
+
+@media screen and (max-width: 768px) {
+
+.fourth_block_1, .fourth_block_2,
+.fourth_block_3, .fourth_block_4,
+.fourth_block_5, .fourth_block_6 {
+	height: auto;
+}
+
+.fifth .message {
+	top: 350px;
+}
+
+.sixth .carousel-control-prev {
+	left: 75%;
+}
+
+.sixth .carousel-control-next {
+	left: 90%;
+}
+
+}
+
+@media screen and (max-width: 576px) {
+
+h1 {
+	font-size: 40px;
+}
+
+.first img {
+	position: static;
+	margin-top: 50px;
+}
+
+.second_text {
+	padding-left: 20px; 
+}
+
+.fourth_block_1, .fourth_block_3 {
+	background-size: 100%;
+}
+
+.fourth_block_1_1, .fourth_block_2_1,
+.fourth_block_3_1, .fourth_block_4_1,
+.fourth_block_5_1, .fourth_block_6_1 {
+	padding: 30px 20px 30px 20px;
+}
+
+.fifth .message {
+	top: 40%;
+}
+
+.rectangle { 	
+	padding: 5px 10px 5px 10px;	
+}
+
+.sixth .carousel-control-prev {
+	left: 60%;
+}
+
+.sixth .carousel-control-next {
+	left: 80%;
+}
+
+.eight .button {
+	width: 70%;
+}
+
+}
+
+
